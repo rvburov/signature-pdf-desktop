@@ -50,25 +50,6 @@ brew install poppler
 python main.py
 ```
 
-## Структура проекта
-
-```
-signature_pdf_app/
-├── main.py                 # Точка входа
-├── requirements.txt        # Зависимости
-├── config/                 # Настройки
-├── ui/                     # Интерфейс
-├── core/                   # Бизнес-логика
-├── database/               # База данных
-├── utils/                  # Утилиты
-├── resources/              # Ресурсы
-└── data/                   # Данные пользователя
-    ├── signatures/         # Подписи
-    ├── templates/          # Шаблоны PDF
-    ├── output/             # Готовые документы
-    └── database.db         # База данных
-```
-
 ## Использование
 
 ### 1. Добавление подписей
